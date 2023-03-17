@@ -1,0 +1,74 @@
+body {
+    background-image: url(../imeges/cool-background.png);
+    text-align: center;
+}
+
+.container {}
+
+.genarator {
+    background-image: url(../imeges/white.png);
+    height: 385px;
+    width: 85%;
+    margin: auto;
+    margin-top: 115px;
+    border: 2px dashed gray;
+    border-radius: 22px;
+}
+
+.name {
+    font-weight: 600;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+h2 {
+    padding: 38px;
+}
+
+p {
+    color: chocolate;
+    font-weight: 400;
+
+}
+
+button {
+    margin-top: 63px;
+    padding: 8px 33px;
+    border: 2px dashed gray;
+    border-radius: 37px;
+    font-weight: 500;
+
+}
+
+button:hover {
+    background-color: rgba(255, 255, 0, 0.728);
+    transition: all 1s;
+
+}
+
+
+@media screen and (max-width:667px) {
+    .name {
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    p {}
+
+    h2 {
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    button {
+        margin-top: 65px;
+        padding: 2px 13px;
+        border: 1px dashed gray;
+        border-radius: 26px;
+        font-weight: 400;
+    }
+}
